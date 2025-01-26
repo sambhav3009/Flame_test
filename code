@@ -1,0 +1,84 @@
+print("Welcome to flame test simulator")
+a=input("Enter the name of the element you wanted to test:")#for Lithum,Sodium,potassium,copper,calcium,or use their chemical formula in atomic state 
+
+if a == "Lithium" or a == "li":
+    print("Brick Red")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The flame is more intense when lithium burns in pure oxygen")
+    elif(b=="no"):
+        print("Thank you for testing or simulator")
+
+elif(a=="Sodium"or"na"):
+    print("Yellow")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The wavelength of this photon is about 589.3 nm, which corresponds to the D line.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+
+elif(a=="potassium" or"k"):
+    print("lilac")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("When potassium is heated, its electrons are ejected and jump to higher energy levels.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+
+elif(a=="Copper"or"cu"):
+    print("Blue/Green")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The color of the flame depends on the type of copper ion present. For example, copper(I)  has a blue-green flame, while copper(II) has a green flame if it's non-halide, and a blue-green flame if it's halide.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+    
+elif(a=="calcium"or "ca"):
+    print("Orange")
+    b=input("Wanted to know more abhout it??(yes/no):")
+    if (b=="yes"):
+        print("The color of the flame produced by calcium is brick-red or orange-red. When viewed through blue glass, it appears light green.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+[11:54 PM, 1/26/2025] Sambhav: print("Welcome to flame test simulator")
+a=input("Enter the name of the element you wanted to test:")#for Lithum,Sodium,potassium,copper,calcium,or use their chemical formula in atomic state 
+
+if a == "Lithium" or a == "li":
+    print("Brick Red")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The flame is more intense when lithium burns in pure oxygen")
+    elif(b=="no"):
+        print("Thank you for testing or simulator")
+
+elif a == "Sodium" or a == "na":
+    print("Yellow")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The wavelength of this photon is about 589.3 nm, which corresponds to the D line.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+
+elif a == "potassium" or a == "k":
+    print("lilac")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("When potassium is heated, its electrons are ejected and jump to higher energy levels.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+
+elif a == "Copper" or a == "cu":
+    print("Blue/Green")
+    b=input("Wanted to know more about it??(yes/no):")
+    if (b=="yes"):
+        print("The color of the flame depends on the type of copper ion present. For example, copper(I)  has a blue-green flame, while copper(II) has a green flame if it's non-halide, and a blue-green flame if it's halide.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
+    
+elif a == "Calcium" or a == "ca":
+    print("Orange")
+    b=input("Wanted to know more abhout it??(yes/no):")
+    if (b=="yes"):
+        print("The color of the flame produced by calcium is brick-red or orange-red. When viewed through blue glass, it appears light green.")
+    elif(b=="no"):
+        print("Thank you for testing our simulator")
